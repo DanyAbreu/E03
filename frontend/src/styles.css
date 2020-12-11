@@ -1,1 +1,97 @@
-/* You can add global styles to this file, and also import other style files */
+/* 'Open Sans' font from Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+  background: #F2EFEF;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+  height: 64px;
+  background: #9B51E0;
+  position:absolute;
+  top:0;
+  right:0;
+  left: 0;
+  color: white;
+  font-size: 40px;
+  text-align:center;
+  margin-top: auto;
+}
+
+.login {
+  width: 400px;
+  margin: 100px auto;
+  font-size: 16px;
+}
+
+/* Reset top and bottom margins from certain elements */
+.login-header,
+.login p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.login-header {
+  background: #9B51E0;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.login-container {
+  background: #dddddd;
+  padding: 12px;
+}
+
+/* Every row inside .login-container is defined with p tags */
+.login p {
+  padding: 12px;
+}
+
+.login input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+}
+
+/* Text fields' focus effect */
+.login input[type="email"]:focus,
+.login input[type="password"]:focus {
+  border-color: #888;
+}
+
+.login input[type="submit"] {
+  background: #9B51E0;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.login input[type="submit"]:hover {
+  background: #723ca5;
+}
+
+/* Buttons' focus effect */
+.login input[type="submit"]:focus {
+  border-color: #723ca5;
+
+}
